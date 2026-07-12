@@ -1,11 +1,13 @@
 {
-  "latestVersion": 236,
-  "versionName": "1.236",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_0610pm_236th(236).apk",
+  "latestVersion": 237,
+  "versionName": "1.237",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_0837pm_237th(237).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Cleaned up player menu for Movies and Adult profiles",
-    "Removed 'Add to YouTube playlist' and 'Search lyrics' from non-YouTube media",
-    "Fixed update system to track the main website repository"
+    "Fixed Notification Reminders for Movies and Adult profiles",
+    "Added Feedback / Report issue option in Settings",
+    "New Fullscreen Player UI with Lock, Rotate, Resize, Speed, Sync Subs, and Tracks",
+    "Added Recent Searches for Home, Navigation Search, and Shorts",
+    "Enhanced search capabilities in Adult shorts"
   ]
 }
