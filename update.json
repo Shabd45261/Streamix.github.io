@@ -1,0 +1,11 @@
+{
+  "latestVersion": 236,
+  "versionName": "1.236",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_0610pm_236th(236).apk",
+  "mandatory": false,
+  "releaseNotes": [
+    "Cleaned up player menu for Movies and Adult profiles",
+    "Removed 'Add to YouTube playlist' and 'Search lyrics' from non-YouTube media",
+    "Fixed update system to track the main website repository"
+  ]
+}
