@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamix - The Ultimate Streaming Experience</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: #FFFFFF;
+            color: #000000;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.1rem;
+            padding: 20px 50px;
+            border-radius: 50px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            border: 2px solid transparent;
+            margin-bottom: 60px;
+        }
+
+        .download-btn:hover {
+            background-color: #000000;
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+
+        .download-btn:active {
+            opacity: 0.8;
+            transform: scale(0.98);
+        }
+
+        /* Screenshots Section */
+        .screenshots-container {
+            width: 100%;
+            max-width: 1200px;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px 0;
+            margin-bottom: 60px;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+
+        .screenshots-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+
+        .screenshots-inner {
+            display: inline-flex;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .screenshot-card {
+            width: 280px;
+            aspect-ratio: 9/19;
+            background-color: #111;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .screenshot-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            width: 100%;
+            margin-bottom: 80px;
+            text-align: left;
+        }
+
+        .feature-item {
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .feature-item h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: auto;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.3);
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        footer a {
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Mobile specific adjustments */
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            .description { font-size: 1rem; }
+            .screenshot-card { width: 220px; }
+            .download-btn { width: 100%; padding: 18px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Streamix</h1>
+
+    <p class="description">
+        Experience the next generation of streaming. A strictly minimal Black & White interface designed for speed, privacy, and the ultimate YouTube and Movie experience on Android.
+    </p>
+
+    <a href="https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_0127pm_234th(234).apk" class="download-btn">
+        Download APK
+    </a>
+
+    <div class="screenshots-container">
+        <div class="screenshots-inner">
+            <div class="screenshot-card"><img src="snippets/s1.jpeg" alt="Streamix Screenshot 1"></div>
+            <div class="screenshot-card"><img src="snippets/s2.jpeg" alt="Streamix Screenshot 2"></div>
+            <div class="screenshot-card"><img src="snippets/s3.jpeg" alt="Streamix Screenshot 3"></div>
+            <div class="screenshot-card"><img src="snippets/s4.jpeg" alt="Streamix Screenshot 4"></div>
+            <div class="screenshot-card"><img src="snippets/s5.jpeg" alt="Streamix Screenshot 5"></div>
+            <div class="screenshot-card"><img src="snippets/s6.jpeg" alt="Streamix Screenshot 6"></div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature-item">
+            <h3>Minimalist Design</h3>
+            <p>Strict Black & White UI that stays out of your way and focuses on content.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Smart Profiles</h3>
+            <p>Switch between YouTube and Movies with a simple drag gesture.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Auto Updates</h3>
+            <p>Always stay on the latest version with our built-in update system.</p>
+        </div>
+    </div>
+
+    <footer>
+        By using Streamix, you acknowledge and agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>. Built for performance.
+    </footer>
+
+</body>
+</html>
