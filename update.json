@@ -1,13 +1,11 @@
 {
-  "latestVersion": 237,
-  "versionName": "1.237",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_0837pm_237th(237).apk",
+  "latestVersion": 238,
+  "versionName": "1.238",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_1042pm_238th(238).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Fixed Notification Reminders for Movies and Adult profiles",
-    "Added Feedback / Report issue option in Settings",
-    "New Fullscreen Player UI with Lock, Rotate, Resize, Speed, Sync Subs, and Tracks",
-    "Added Recent Searches for Home, Navigation Search, and Shorts",
-    "Enhanced search capabilities in Adult shorts"
+    "Added Background Playback for YouTube profile (Toggle in Settings)",
+    "MediaSession integration for system media controls",
+    "UI improvements and bug fixes"
   ]
 }
