@@ -1,13 +1,14 @@
 {
-  "latestVersion": 242,
-  "versionName": "1.242",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0316pm_242nd(242).apk",
+  "latestVersion": 243,
+  "versionName": "1.243",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0421pm_243rd(243).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Added cinematic auto-playing trailers/previews to Expanded Video Card",
-    "Enabled direct playback from Expanded Card triangle button",
-    "Enhanced 'Watched' and 'Like' button feedback (visual indicators)",
-    "Global interaction glow on boundary of video cards (profile-specific colors)",
-    "Cleaned up UI (removed redundant text on hold)"
+    "Fixed trailer/preview reuse issue in Expanded Video Card",
+    "Enabled toggle-to-remove for Like and Watched buttons",
+    "Redesigned Search Screen: Profile-separated results in list format",
+    "Enhanced Library Screen: Horizontal swiping for categories",
+    "Custom Adult Profile Player: Redesigned based on Image 3",
+    "Removed related videos from Adult player for a cleaner look"
   ]
 }
