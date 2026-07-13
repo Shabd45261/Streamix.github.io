@@ -1,11 +1,14 @@
 {
-  "latestVersion": 238,
-  "versionName": "1.238",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260712_Sunday_1042pm_238th(238).apk",
+  "latestVersion": 241,
+  "versionName": "1.241",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0150pm_241st(241).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Added Background Playback for YouTube profile (Toggle in Settings)",
-    "MediaSession integration for system media controls",
-    "UI improvements and bug fixes"
+    "Enhanced UI with larger Hero Cards in all profiles",
+    "Interactive profile-specific touch borders",
+    "Profile-specific Search History with deletion",
+    "Fixed Player Track Selection (Video/Audio resolutions)",
+    "Fixed Next Episode button logic",
+    "New Expanded Video Card (Netflix Style) on long-press"
   ]
 }
