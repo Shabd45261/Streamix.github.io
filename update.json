@@ -1,14 +1,13 @@
 {
-  "latestVersion": 241,
-  "versionName": "1.241",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0150pm_241st(241).apk",
+  "latestVersion": 242,
+  "versionName": "1.242",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0316pm_242nd(242).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Enhanced UI with larger Hero Cards in all profiles",
-    "Interactive profile-specific touch borders",
-    "Profile-specific Search History with deletion",
-    "Fixed Player Track Selection (Video/Audio resolutions)",
-    "Fixed Next Episode button logic",
-    "New Expanded Video Card (Netflix Style) on long-press"
+    "Added cinematic auto-playing trailers/previews to Expanded Video Card",
+    "Enabled direct playback from Expanded Card triangle button",
+    "Enhanced 'Watched' and 'Like' button feedback (visual indicators)",
+    "Global interaction glow on boundary of video cards (profile-specific colors)",
+    "Cleaned up UI (removed redundant text on hold)"
   ]
 }
