@@ -1,14 +1,15 @@
 {
-  "latestVersion": 244,
-  "versionName": "1.244",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0508pm_244th(244).apk",
+  "latestVersion": 245,
+  "versionName": "1.245",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0823pm_245th(245).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Fixed trailer auto-play in Expanded Video Card",
-    "Enabled toggle (add/remove) for Like and Watched buttons in Expanded Card",
-    "Fixed trailer detection for Movies profile",
-    "Redesigned Adult Profile Fullscreen Player layout (fixed timestamps)",
-    "Improved Library horizontal scrolling performance",
-    "Profile-specific Search results (no more mixed content)"
+    "Fixed Expanded Card trailer auto-play and preview reuse",
+    "Redesigned Expanded Card: Dark theme with controls below preview",
+    "Expanded Card Controls: Replaced tick with Cross (Remove) and More (Menu)",
+    "New Menu options: Add to any library list and Share video",
+    "Unified Search: Combined YT/Movies, prefixed @ for Adult results only",
+    "Fixed Library swiping performance and tab sync",
+    "Adult Player: Fixed timestamp alignment and added Picture-in-Picture icon"
   ]
 }
