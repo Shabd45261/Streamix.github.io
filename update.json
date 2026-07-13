@@ -1,14 +1,14 @@
 {
-  "latestVersion": 243,
-  "versionName": "1.243",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0421pm_243rd(243).apk",
+  "latestVersion": 244,
+  "versionName": "1.244",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260713_Monday_0508pm_244th(244).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Fixed trailer/preview reuse issue in Expanded Video Card",
-    "Enabled toggle-to-remove for Like and Watched buttons",
-    "Redesigned Search Screen: Profile-separated results in list format",
-    "Enhanced Library Screen: Horizontal swiping for categories",
-    "Custom Adult Profile Player: Redesigned based on Image 3",
-    "Removed related videos from Adult player for a cleaner look"
+    "Fixed trailer auto-play in Expanded Video Card",
+    "Enabled toggle (add/remove) for Like and Watched buttons in Expanded Card",
+    "Fixed trailer detection for Movies profile",
+    "Redesigned Adult Profile Fullscreen Player layout (fixed timestamps)",
+    "Improved Library horizontal scrolling performance",
+    "Profile-specific Search results (no more mixed content)"
   ]
 }
