@@ -1,9 +1,10 @@
 {
-  "latestVersion": 251,
-  "versionName": "1.251",
+  "latestVersion": 252,
+  "versionName": "1.252",
   "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260714_Tuesday_1041pm_251st(251).apk",
   "mandatory": true,
   "releaseNotes": [
+    "FORCED UPDATE DIALOG FOR TESTING",
     "Fixed: Video player now minimizes on drag-down instead of closing",
     "Fixed: Back button navigation and double-tap to exit improved",
     "Fixed: Stuck in landscape mode after leaving player",
