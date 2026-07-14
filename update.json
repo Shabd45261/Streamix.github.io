@@ -1,7 +1,7 @@
 {
-  "latestVersion": 249,
-  "versionName": "1.249",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260714_Tuesday_0124pm_249th(249).apk",
+  "latestVersion": 250,
+  "versionName": "1.250",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260714_Tuesday_0818pm_250th(250).apk",
   "mandatory": false,
   "releaseNotes": [
     "Integrated Firebase Analytics for anonymous usage tracking",
