@@ -1,11 +1,12 @@
 {
-  "latestVersion": 254,
-  "versionName": "1.254",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Wednesday_15-07-2026_1149am_254th(254).apk",
+  "latestVersion": 255,
+  "versionName": "1.255",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Wednesday_15-07-2026_0813pm_255th(255).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Fixed Shorts video scaling issue (9:16 aspect ratio maintenance)",
-    "Added letterboxing/pillarboxing for non-conforming aspect ratios",
-    "Ensured UI elements remain visible and correctly positioned"
+    "Shorts: Automatically refreshes the feed when entering the shorts screen",
+    "Shorts: Added Pull-to-Refresh functionality on the first page",
+    "Shorts: Enhanced Back button logic - scrolls to the first item before exiting",
+    "Stability: General improvements to shorts playback"
   ]
 }
