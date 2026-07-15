@@ -1,12 +1,11 @@
 {
-  "latestVersion": 253,
-  "versionName": "1.253",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260715_Wednesday_1020am_253rd(253).apk",
+  "latestVersion": 254,
+  "versionName": "1.254",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Wednesday_15-07-2026_1149am_254th(254).apk",
   "mandatory": false,
   "releaseNotes": [
-    "New Feature: YouTube Shorts feed now uses an 8:2 ratio (Subscribed Channels : Search History)",
-    "Fair Priority: Every subscribed channel gets equal visibility in the shorts feed",
-    "Channel Shorts: Directly fetches shorts created by your favorite creators",
-    "Stability: General improvements to shorts playback and resolution"
+    "Fixed Shorts video scaling issue (9:16 aspect ratio maintenance)",
+    "Added letterboxing/pillarboxing for non-conforming aspect ratios",
+    "Ensured UI elements remain visible and correctly positioned"
   ]
 }
