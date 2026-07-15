@@ -1,16 +1,13 @@
 {
   "latestVersion": 252,
   "versionName": "1.252",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260714_Tuesday_1041pm_251st(251).apk",
-  "mandatory": true,
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260715_Wednesday_0840am_252nd(252).apk",
+  "mandatory": false,
   "releaseNotes": [
-    "FORCED UPDATE DIALOG FOR TESTING",
-    "Fixed: Video player now minimizes on drag-down instead of closing",
-    "Fixed: Back button navigation and double-tap to exit improved",
-    "Fixed: Stuck in landscape mode after leaving player",
-    "Fixed: Scraper names removed from movie player top bar",
-    "Added: Search button functionality on Channel page",
-    "Added: Share with timestamp support for movies and YouTube",
-    "Improved: Deep linking support for shared links"
+    "Fixed: App icon in app drawer (Adaptive icon with black background)",
+    "Fixed: Website icon cutting issue",
+    "Fixed: Update dialog now allows ignoring updates",
+    "Fixed: Video player minimizes on drag-down",
+    "Improved: Back button navigation and exit logic"
   ]
 }
