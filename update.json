@@ -1,13 +1,12 @@
 {
-  "latestVersion": 252,
-  "versionName": "1.252",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260715_Wednesday_0840am_252nd(252).apk",
+  "latestVersion": 253,
+  "versionName": "1.253",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20260715_Wednesday_1020am_253rd(253).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Fixed: App icon in app drawer (Adaptive icon with black background)",
-    "Fixed: Website icon cutting issue",
-    "Fixed: Update dialog now allows ignoring updates",
-    "Fixed: Video player minimizes on drag-down",
-    "Improved: Back button navigation and exit logic"
+    "New Feature: YouTube Shorts feed now uses an 8:2 ratio (Subscribed Channels : Search History)",
+    "Fair Priority: Every subscribed channel gets equal visibility in the shorts feed",
+    "Channel Shorts: Directly fetches shorts created by your favorite creators",
+    "Stability: General improvements to shorts playback and resolution"
   ]
 }
