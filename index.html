@@ -168,6 +168,43 @@
 </head>
 <body>
 
+    <script>
+        (function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const profile = urlParams.get('profile');
+            const type = urlParams.get('type');
+            const id = urlParams.get('id');
+            const t = urlParams.get('t') || '0';
+
+            if (profile && type && id) {
+                // Construct custom deep link URI
+                const deepLink = `streamix://watch?profile=${profile}&type=${type}&id=${encodeURIComponent(id)}&t=${t}`;
+
+                // Show a message to the user
+                const banner = document.createElement('div');
+                banner.id = 'deeplink-banner';
+                banner.style.cssText = 'position:fixed;top:0;left:0;width:100%;background:#FFF;color:#000;padding:20px;z-index:10000;font-weight:bold;text-align:center;box-shadow:0 4px 15px rgba(0,0,0,0.8);';
+                banner.innerHTML = '<div style="margin-bottom:10px">Opening content in Streamix app...</div><div style="font-size:0.85rem;font-weight:normal;opacity:0.8">If the app doesn\'t open automatically, ensure it is installed.</div>';
+                document.body.appendChild(banner);
+
+                // Attempt to open the app
+                window.location.href = deepLink;
+
+                // Fallback: If still on page after 4 seconds, update banner
+                setTimeout(() => {
+                    const banner = document.getElementById('deeplink-banner');
+                    if (banner) {
+                        banner.innerHTML = '<div style="margin-bottom:10px">This content can be opened directly in the Streamix app.</div>' +
+                                         '<div style="display:flex;justify-content:center;gap:15px;margin-top:10px">' +
+                                         '<a href="#" onclick="document.getElementById(\'deeplink-banner\').remove();return false;" style="color:#000;text-decoration:underline;font-size:0.9rem">Stay on Website</a>' +
+                                         '<a href="' + document.querySelector('.download-btn').href + '" style="color:#000;text-decoration:underline;font-size:0.9rem">Download Streamix</a>' +
+                                         '</div>';
+                    }
+                }, 4000);
+            }
+        })();
+    </script>
+
     <img src="Final_Icon.png" alt="Streamix Icon" class="app-icon">
     <h1>Streamix</h1>
 
@@ -175,7 +212,7 @@
         Experience the next generation of streaming. A strictly minimal Black & White interface designed for speed, privacy, and the ultimate YouTube and Movie experience on Android.
     </p>
 
-    <a href="https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_1108am_256th(256).apk" class="download-btn">
+    <a href="https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_0402pm_257th(257).apk" class="download-btn">
         Download APK
     </a>
 

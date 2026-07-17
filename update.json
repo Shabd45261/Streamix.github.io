@@ -1,11 +1,12 @@
 {
-  "latestVersion": 256,
-  "versionName": "1.256",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_1108am_256th(256).apk",
+  "latestVersion": 257,
+  "versionName": "1.257",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_0402pm_257th(257).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Build: Signed release build with optimized performance",
-    "Shorts: Improved playback stability and UI controls",
-    "System: Enabled R8 minification and resource shrinking"
+    "Search: Redesigned recent search history system (YouTube/Movies/Adult)",
+    "History: Fixed bug where intermediate keywords were saved while typing",
+    "History: Increased history limit to 30 items with duplicate handling",
+    "UI: Optimized Search Screen performance across all profiles"
   ]
 }
