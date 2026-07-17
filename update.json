@@ -1,12 +1,11 @@
 {
-  "latestVersion": 255,
-  "versionName": "1.255",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Wednesday_15-07-2026_0813pm_255th(255).apk",
+  "latestVersion": 256,
+  "versionName": "1.256",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_1108am_256th(256).apk",
   "mandatory": false,
   "releaseNotes": [
-    "Shorts: Automatically refreshes the feed when entering the shorts screen",
-    "Shorts: Added Pull-to-Refresh functionality on the first page",
-    "Shorts: Enhanced Back button logic - scrolls to the first item before exiting",
-    "Stability: General improvements to shorts playback"
+    "Build: Signed release build with optimized performance",
+    "Shorts: Improved playback stability and UI controls",
+    "System: Enabled R8 minification and resource shrinking"
   ]
 }
