@@ -1,12 +1,12 @@
 {
-  "latestVersion": 257,
-  "versionName": "1.257",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Friday_17-07-2026_0402pm_257th(257).apk",
-  "mandatory": false,
+  "latestVersion": 259,
+  "versionName": "1.259",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Sunday_19-07-2026_1032pm_259th(259).apk",
+  "mandatory": true,
   "releaseNotes": [
-    "Search: Redesigned recent search history system (YouTube/Movies/Adult)",
-    "History: Fixed bug where intermediate keywords were saved while typing",
-    "History: Increased history limit to 30 items with duplicate handling",
-    "UI: Optimized Search Screen performance across all profiles"
+    "UI: Upgraded to a premium glassmorphic interface (Frosted Glass style)",
+    "Style: Improved Search Bar and Video Cards with smooth animations",
+    "Performance: Optimized UI rendering for a more 'Flutter-like' experience",
+    "Verification: Fixed critical package name mismatch for APKPure submission"
   ]
 }
