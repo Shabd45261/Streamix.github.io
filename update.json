@@ -1,12 +1,11 @@
 {
-  "latestVersion": 259,
-  "versionName": "1.259",
-  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_Sunday_19-07-2026_1032pm_259th(259).apk",
+  "latestVersion": 260,
+  "versionName": "1.260",
+  "apkUrl": "https://media.githubusercontent.com/media/Shabd45261/Streamix.github.io/main/apk/Streamix_20-07-2026_Monday_1017PM_260th(260).apk",
   "mandatory": true,
   "releaseNotes": [
-    "UI: Upgraded to a premium glassmorphic interface (Frosted Glass style)",
-    "Style: Improved Search Bar and Video Cards with smooth animations",
-    "Performance: Optimized UI rendering for a more 'Flutter-like' experience",
-    "Verification: Fixed critical package name mismatch for APKPure submission"
+    "Adult Profile: Fixed Hero Card visibility issue - now shows automatically on home screen",
+    "App Updates: Automated build and deployment system integrated",
+    "Performance: Minor UI optimizations and bug fixes"
   ]
 }
